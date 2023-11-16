@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SegundoProjetoProgramacaoAvancada" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/aeou" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/aeou" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="comandos.txt" />
+		<Unit filename="include/CutBox.h" />
+		<Unit filename="include/CutEllipsoid.h" />
+		<Unit filename="include/CutSphere.h" />
+		<Unit filename="include/CutVoxel.h" />
+		<Unit filename="include/FiguraGeometrica.h" />
+		<Unit filename="include/PutBox.h" />
+		<Unit filename="include/PutEllipsoid.h" />
+		<Unit filename="include/PutSphere.h" />
+		<Unit filename="include/PutVoxel.h" />
+		<Unit filename="include/Sculptor.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/CutBox.cpp" />
+		<Unit filename="src/CutEllipsoid.cpp" />
+		<Unit filename="src/CutSphere.cpp" />
+		<Unit filename="src/CutVoxel.cpp" />
+		<Unit filename="src/PutBox.cpp" />
+		<Unit filename="src/PutEllipsoid.cpp" />
+		<Unit filename="src/PutSphere.cpp" />
+		<Unit filename="src/PutVoxel.cpp" />
+		<Unit filename="src/Sculptor.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
