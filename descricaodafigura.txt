@@ -1,0 +1,6 @@
+PutEllipsoid 15 15 10 4 3 1
+PutEllipsoid 16 15 10 1 1 1
+PutBox 13 13 16 16 9 9
+PutBox 13 13 16 16 11 11
+PutBox 14 14 13 17 10 10
+PutBox 16 16 13 17 10 10
